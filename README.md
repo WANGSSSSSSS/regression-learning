@@ -1,6 +1,6 @@
 ### regression-learning
 
-this repository is used to restore my homework of  **Business Intelligence** 
+this repository is used to store my homework of  **Business Intelligence** 
 
 I decide to make a survey about **regression analysis** , based on this opinion, i finished:
 
