@@ -20,10 +20,10 @@ class Data:
         # puring the data
         self.data = self.pure()
 
-        # self.data.describe().to_csv("attr.csv")
-        # attr = self.data.describe().iloc[1:]
-        # attr.plot()
-        # pyplot.show()
+        #self.data.describe().to_csv("attr.csv")
+        #attr = self.data.describe().iloc[1:]
+        #attr.plot()
+        #pyplot.show()
 
     def train(self):
         return self.data
@@ -83,6 +83,6 @@ class Data:
 
 
 
-data = Data("./AirQualityUCI/AirQualityUCI.xls")
+data = Data("../AirQualityUCI/AirQualityUCI.xls")
 train_data = data.data[:5000]
 test_data = data.data[5000:]
